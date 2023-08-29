@@ -6,8 +6,6 @@ from selenium.common.exceptions import ElementClickInterceptedException, NoSuchW
 import time
 import ttkbootstrap as ttk
 
-USERNAME = r'retard.bigdaddy@gmail.com'
-PASSWORD = r'Mitsubishizxcvbnm216712'
 webdriver_path = r"chromedriver.exe"
 extension_path = r"VeePN.crx"
 ser = service.Service(executable_path=webdriver_path)
